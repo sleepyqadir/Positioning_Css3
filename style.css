@@ -1,3 +1,6 @@
+body {
+    background-color: lightgray;
+}
 .block{
     width: 50%;
     margin: 50px;
@@ -20,3 +23,68 @@
     padding: 20px;
     display: block;
 }
+.wrapper {
+    background-color: #ffffff;
+max-width: 960px;
+margin: 0 auto;
+padding: 20px
+}
+
+.wrapper:after
+{
+    content: "";
+    display:  block;
+    clear: both;
+}
+
+.none {
+    /* float: left; */
+    margin: 10px;
+}
+.left {
+    float: left;
+    margin: 10px;
+}
+.right {
+    float: right;
+    margin: 10px;
+}
+h1,h3{
+    margin: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color:blue;
+}
+.green {
+    background-color:green;
+}
+
+.blueright {
+    float: right;
+    background-color:blue;
+}
+.greenright{
+    background-color:green;
+    float: right;
+}
+.redright {
+    background-color: red;
+    float: right;
+}
+
+
+
+
+
+
+
