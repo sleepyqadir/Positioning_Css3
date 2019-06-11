@@ -81,8 +81,41 @@ h1,h3{
     background-color: red;
     float: right;
 }
+.boxes::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.service {
 
+    float: left;
+    width: 29.33%;
+    margin: 1%;
+    padding:  1%;
+    background-color: black;
+    color: white;
+}
+.content
+{
+    clear: both;
+    background-color: aquamarine;
+    color: black;
+    margin : 20px 1%;
+}
 
+aside,section {
+    float: left;
+    width: 46%;
+    background-color: lightslategray;
+    color:white;
+    padding: 1%;
+    margin: 1%;
+}
+.column::after {
+   clear: both;
+   display: block;
+   content: "";
+}
 
 
 
