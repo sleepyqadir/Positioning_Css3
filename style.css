@@ -96,6 +96,10 @@ h3 {
   background-color: black;
   color: white;
 }
+.services{
+    max-height: 150px;
+    overflow: hidden;
+}
 .service-rel {
   position: relative;
   float: left;
